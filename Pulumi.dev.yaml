@@ -1,0 +1,6 @@
+##Sample stack
+config:
+  aws:profile: personal
+  aws:region: us-east-1
+  pulumi-aws-datapipeline:source_s3_bucket: s3://datapipeline-sample-bucket-dev/sample-data
+  pulumi-aws-datapipeline:destination_table_name: datapipeline-sample-table-dev
